@@ -1,0 +1,25 @@
+{
+  "name": "mongotask",
+  "version": "0.1.1",
+  "description": "This is a wrapper of mongodb using data.task.",
+  "main": "./mongoTask",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Leshao-Zhang/mongoTask.git"
+  },
+  "keywords": [
+    "functional",
+    "mongodb",
+    "data.task",
+    "monads"
+  ],
+  "files": [
+    "mongoTask.js"
+  ],
+  "author": "Leshao Zhang, Sisi Guo",
+  "license": "MIT",
+  "dependencies": {
+      "mongodb":"2.2.26",
+      "data.task":"3.1.1"
+  }
+}
