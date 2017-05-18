@@ -11,7 +11,7 @@
  * @author Leshao Zhang, Sisi Guo
  * @version 0.1.1
  * Usage:
- * var db=require('./data.mongoTask');
+ * var db=require('./mongotask');
  * var dbUrl='mongodb://localhost:27017/mydb';
  * db(dbUrl).open(collection);					//return a Task which opens a collection
  * db(dbUrl).find(query).from(collection);      //return a Task which doing a query, no need to open db first or close db in the end
